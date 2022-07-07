@@ -3,7 +3,7 @@ import axios from "axios";
 import "./ask_ques.css";
 
 function Ask() {
-  const apiLink = "http://localhost:17333";
+  const apiLink = "https://askapi2.herokuapp.com";
   const [question, setQuestion] = React.useState("");
   const [answer, setAnswer] = React.useState(null);
   const handleSubmit = async (e) => {
